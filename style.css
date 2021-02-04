@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*HEADER*/
+* {margin: 0px;
+padding: 0px;}
+
+header{display: flex;
+    background-color: #838bc5;
+    height: 40vh;
+    font-size: 40px;
+}
+
+ .cabecalho{display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.cable{
+    display: flex;
+    width: 70%;
+    
+    justify-content: center;
+}
+
+.cab3{
+    width: 30%;
+}
+
+
+/*NAVEGAÇÃO DO SITE*/
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+    background-color:  #4c5ac7;
+    
+    
+    
+    
+}
+nav ul li{
+    width: 33%;
+    text-align: center;
+    
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.sessoes{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 152, 231);
+    padding: 80px;
+}
+
+/*DROPDOWN*/
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: tomato;
+    position: absolute;
+    
+
+}
+
+.dropdown-content p{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+
+.botao{
+    padding: 17.5px;
+    background-color: #4c5ac7;
+    border: none;
+}
