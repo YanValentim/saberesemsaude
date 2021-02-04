@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
 /*HEADER*/
+
 * {
     margin: 0px;
-padding: 0px;
-color: black;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
 
 }
 
+.cable{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+   
+}
+p{
+    text-align: justify;
+}
 
 header{
     display: flex;
@@ -32,6 +45,7 @@ header{
     width: 70%;
     justify-content: center;
     
+    
 }
 
 
@@ -42,11 +56,6 @@ header{
 
 
 /*NAVEGAÇÃO DO SITE*/
-
-nav a{
-   text-decoration: none;
-
-}
 
 
 nav ul, .botao1 {
@@ -74,8 +83,8 @@ nav ul li{
 .sessoes{
     display: flex;
     flex-direction: column;
-    background-color: rgb(231, 152, 231);
-    padding: 80px;
+    background-color: rgb(185, 152, 185);
+    padding: 40px 80px;
 
 }
 
@@ -91,7 +100,7 @@ nav ul li{
 
 .dropdown-content{
     display: none;
-    background-color: rgb(213, 113, 243);
+    background-color:  #838bc5;
     position: absolute;
 
 }
@@ -131,3 +140,7 @@ nav ul li{
 
 }
 
+footer{
+    background-color: rgb(231, 152, 231);
+    width: 100%;
+}
