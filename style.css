@@ -4,92 +4,130 @@
 * {
     margin: 0px;
 padding: 0px;
+color: black;
+
 }
 
-header{display: flex;
+
+header{
+    display: flex;
     background-color: rgb(94, 192, 135);
     height: 40vh;
     font-size: 40px;
+
 }
 
- .cabecalho{display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
+
+ .cabecalho{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
 }
+
 
 .cable{
     display: flex;
     width: 70%;
-    
     justify-content: center;
+    
 }
+
 
 .cab3{
     width: 30%;
+
 }
 
 
 /*NAVEGAÇÃO DO SITE*/
 
+nav a{
+   text-decoration: none;
 
-nav ul {
+}
+
+
+nav ul, .botao1 {
     display: flex;
     list-style: none;
-    
     background-color:  #838bc5;
     
-    
-    
-    
 }
+
+
+nav ul{
+    justify-content: flex-end;
+
+}
+
+
 nav ul li{
-    width: 33%;
-    text-align: center;
-    
     height: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
     
-    
 }
+
 
 .sessoes{
     display: flex;
     flex-direction: column;
     background-color: rgb(231, 152, 231);
     padding: 80px;
+
 }
+
 
 /*DROPDOWN*/
 
 .dropdown{
     display: inline-block;
     position: relative;
+
 }
+
 
 .dropdown-content{
     display: none;
     background-color: rgb(213, 113, 243);
     position: absolute;
-    
 
 }
+
 
 .dropdown-content p{
     display: block;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     
 }
+
+
 .dropdown:hover .dropdown-content{
     display: block;
     
 }
 
+
 .botao{
-    padding: 17.5px;
-    background-color: #4c5ac7;
+    padding: 17.5px ;
     border: none;
+
 }
+
+
+.botao2, .botao3{
+    padding: 16px;
+
+}
+
+
+/*Quando passar o mouse*/
+
+.botao:hover{
+    background-color: #4c5ac7;
+
+}
+
