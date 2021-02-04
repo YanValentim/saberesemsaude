@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 /*HEADER*/
-* {margin: 0px;
-padding: 0px;}
+* {
+    margin: 0px;
+padding: 0px;
+}
 
 header{display: flex;
-    background-color: #838bc5;
+    background-color: rgb(94, 192, 135);
     height: 40vh;
     font-size: 40px;
 }
@@ -35,7 +37,7 @@ nav ul {
     display: flex;
     list-style: none;
     
-    background-color:  #4c5ac7;
+    background-color:  #838bc5;
     
     
     
@@ -69,7 +71,7 @@ nav ul li{
 
 .dropdown-content{
     display: none;
-    background-color: tomato;
+    background-color: rgb(213, 113, 243);
     position: absolute;
     
 
