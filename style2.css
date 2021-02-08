@@ -1,14 +1,36 @@
 @charset "UTF-8";
+
+@font-face{
+    font-family: flicker;
+    src: url(media/flicker_DEMO.otf);
+}
+
 *{
     color: black;
 }
 
 header{
+    font-family: flicker;
     display: flex;
-    background-color: violet;
-    height: 200px;
+    font-size: 26px;
+    height: 300px;
     justify-content: center;
     align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 nav{
@@ -60,10 +82,14 @@ nav div a{
 }
 @media only screen and (min-width: 769px){
 
+header{
+    font-size: 40px;
+}
 
 
-
-
+.logo{
+    width: 200px;
+}
 
 
 
