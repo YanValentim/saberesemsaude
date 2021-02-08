@@ -24,7 +24,7 @@ p{
 
 header{
     display: flex;
-    background-color: rgb(94, 192, 135);
+    background-color: white;
     height: 40vh;
     font-size: 40px;
 
@@ -61,7 +61,8 @@ header{
 nav ul, .botao1 {
     display: flex;
     list-style: none;
-    background-color:  #838bc5;
+    
+    background-color: rgb(94, 192, 135);
     
 }
 
@@ -83,7 +84,8 @@ nav ul li{
 .sessoes{
     display: flex;
     flex-direction: column;
-    background-color: rgb(185, 152, 185);
+    background-color:  #838bc5;
+    
     padding: 40px 80px;
 
 }
@@ -141,6 +143,9 @@ nav ul li{
 }
 
 footer{
-    background-color: rgb(231, 152, 231);
-    width: 100%;
+     background-color: rgb(185, 152, 185);
+    
+    display: flex;
+    justify-content: center;
+    padding: 40px 80px;
 }
