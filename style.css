@@ -25,6 +25,10 @@ header{
     flex-direction: column;
     font-weight: bold;
 }
+.titulo{
+    text-align: center;
+}
+
 
 .subtitulo{
     font-size: 18px;
