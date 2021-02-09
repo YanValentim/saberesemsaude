@@ -137,4 +137,9 @@ nav{
     padding: 4px 34px;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
 }
