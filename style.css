@@ -48,7 +48,7 @@ nav{
     
 }
 
-nav div a{
+nav a{
     text-decoration: none;
     
     
@@ -58,31 +58,63 @@ nav div a{
 
 
 
-.dropdown{
-    position: relative;
-    display: inline-block;
+nav a div:hover, nav div a:hover{
+    background-color: rgb(211, 165, 211);
+    color: rgb(255, 255, 255);
+    
     
 }
+
+.dropdown-content2{
+    
+    text-align: center;
+    padding: 3px 34px;
+    border: 2px  rgb(235, 162, 235)solid;
+}
+
+
+.dropdown{
+    position: relative;
+    display: block;
+    
+    
+    
+}
+
+.dropdown > a
+{
+padding: 2px 50px;
+}   
 
 .dropdown-content{
     display: none;
     position: absolute;
+    background-color: rgb(219, 87, 219);
+    
+    
+    
+   
     
 }
 
-.dropdown-content a{
-    display: block;
-    background-color: blue;
-    text-align: center;
-    padding: 10px;
-    
+.dropdown-content2:hover{
+    background-color: rgb(211, 165, 211);
+    color: cornsilk;
 }
-
 
 
 .dropdown:hover .dropdown-content{
     display: block;
     
+
+    
+}
+.barra2{
+    padding: 4px 2px;
+}
+
+.barra3{
+    padding: 4px 34px;
 }
 @media only screen and (min-width: 769px){
 
@@ -96,6 +128,13 @@ header{
 }
 
 
+nav{
+    flex-direction: row;
+    height: auto;
+}
 
+.barra2{
+    padding: 4px 34px;
+}
 
 }
