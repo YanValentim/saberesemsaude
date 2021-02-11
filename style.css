@@ -68,8 +68,8 @@ nav a div:hover, nav div a:hover{
 .dropdown-content2{
     
     text-align: center;
-    padding: 3px 32px;
-    border: 2px  rgb(235, 162, 235)solid;
+    padding: 2px 32px;
+   
     
 }
 
@@ -84,19 +84,14 @@ nav a div:hover, nav div a:hover{
 
 .dropdown > a
 {
-padding: 2px 50px;
+padding: 2px 48px;
 }   
 
 .dropdown-content{
     display: none;
     position: absolute;
     background-color: rgb(219, 87, 219);
-    
-    
-    
-    
    
-    
 }
 
 .dropdown-content2:hover{
